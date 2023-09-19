@@ -1,0 +1,12 @@
+HTML: https://developer.mozilla.org/en-US/docs/Web/HTML
+CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+Javascript: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+TypeScript: https://www.typescriptlang.org/docs/
+Vue 3: https://vuejs.org/guide/introduction.html
+Nuxt 3: https://nuxt.com/docs
+Quasar: https://quasar.dev/docs/
+
+Node: https://nodejs.org/en/docs
+MongoDB: https://www.mongodb.com/docs/
+Mongoose: https://mongoosejs.com/docs/
+Express: https://expressjs.com/
