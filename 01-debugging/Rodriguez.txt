@@ -1,0 +1,6 @@
+Which debugging technique do you like to use? Why?
+In my six years coding experience, Static Analysis has always been my bread-and-butter. I always seek to understand why the code works.
+
+But when working on a feature with teammates, I prefer Collaborative Debugging.
+ - If I'm debugging from the same team, my teammates can provide me with insights.
+ - If I'm debugging from another team (e.g. Frontend with Backend), I can identify with the team if the bug is from the Frontend or the Backend.
