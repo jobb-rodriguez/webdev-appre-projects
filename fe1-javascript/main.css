@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body {
+    background: #0F3863;
+    padding: 1%;
+    font-family: "Inter", "sans-serif";
+}
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.card {
+    padding: 5px 25px 45px 25px;
+    background: white;
+    color: #0F3863;
+}
+.card-header, .card-body {
+    text-align: center;
+}
+.card-body {
+    font-size: 3em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#button-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+button {
+    background-color: #616C38;
+    color: white;
+    padding: 20px;
+    border-width: 0px;
+    border-radius: 40px;
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background: white;
+    }
+    #cards {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+    .card {
+        padding: 5px 25px 45px 25px;
+        color: white;
+        background: #0F3863;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #cards {
+        grid-template-columns: 1fr;
+    }
+}
